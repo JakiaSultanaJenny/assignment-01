@@ -16,6 +16,7 @@
     font-weight: 800;
     color: #0D1321;
     margin-bottom: 24px;
+    text-align: center;
 }
   .section-description{
     font-size: 16px;
@@ -154,4 +155,55 @@ main{
     text-align: center;
     margin-bottom:48px ;
     
+}
+/* My current target section starts here */
+.target{
+    height: 460px;
+}
+.section-gap{
+    margin-top: 150px;
+}
+
+.tools-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.tool-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    height: 300px;
+    width: 365px;
+    border-radius: 16px;
+}
+.tool-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    height: 300px;
+    width: 365px;
+    border-radius: 16px;
+}
+.tool-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    height: 300px;
+    width: 365px;
+    border-radius: 16px;
+}
+.tool-name{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.tool-description{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.link{
+    font-weight: bold;
+    color: #0D1321;
+    font: 16px;
+    margin-top: 24px;
 }
