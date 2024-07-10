@@ -20,6 +20,7 @@
   .section-description{
     font-size: 16px;
     color: #0D1321;
+    text-align: center;
     
 }
 /* banner section styles starts here */
@@ -78,7 +79,7 @@ main{
     margin: 0px auto;
 }
 .secondary-background{
-    background-color: rgba(13, 19, 33, 0.02);
+    background-color: rgba(15, 27, 55, 0.06);
     
 }
 .reason-of-web-development{
@@ -94,7 +95,11 @@ main{
     background-color: #FFFFFF;
     text-align: left;
     margin-bottom: 32px;
+    padding-left: 48px;
+    padding-top: 48px;
     margin-top: 48px;
+    border-radius: 16px;
+    
     
 }
 .mission-content{
@@ -128,4 +133,25 @@ main{
 }
 .gradient-3{
     background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+/* My Inspiration section's styles start here */
+.my-inspiration{
+    max-width: 1140px;
+    height: 775px;
+    text-align: center;
+    margin-top: 90px;
+
+}
+.youtube-video{
+    border-radius: 16px;
+    padding:32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    
+}
+.text-align{
+    padding-left: 144px;
+    padding-right: 144px;
+    text-align: center;
+    margin-bottom:48px ;
+    
 }
