@@ -10,6 +10,18 @@
     margin: 0px;
     padding: 0px;
 }
+/* shared styles */
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+  .section-description{
+    font-size: 16px;
+    color: #0D1321;
+    
+}
 /* banner section styles starts here */
 .banner-container{
     margin: 0 auto;
@@ -59,4 +71,61 @@
     border-radius: 8px;
     height: 65px;
     width: 244px;
+}
+/* why web development section starts here */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.secondary-background{
+    background-color: rgba(13, 19, 33, 0.02);
+    
+}
+.reason-of-web-development{
+        border-radius: 16px;
+        padding: 80px 100px;
+        text-align: center;
+        margin-top: 75px;
+    
+}
+.about-mission{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 32px;
+    margin-top: 48px;
+    
+}
+.mission-content{
+    max-width: 477px;
+}
+
+
+.mission-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+    text-align: left;
+    
+}
+.mission-description{
+    margin-bottom: 32px;
+}
+
+.btn-learn-more{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+/* setting gradient */
+.gradient-1{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+.gradient-2{
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+.gradient-3{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
